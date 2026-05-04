@@ -1,0 +1,30 @@
+# =============================================================================
+# File   : requirements.txt
+# Fungsi : Daftar dependensi Python untuk SAKTI worker
+# Author : SAKTI Dev Team
+# Date   : 2026-05-01
+# Install: pip install -r requirements.txt
+# =============================================================================
+
+# HTTP client untuk komunikasi ke Laravel API
+requests>=2.31.0
+
+# Load konfigurasi dari .env
+python-dotenv>=1.0.0
+
+# Computer vision — capture kamera & RTSP
+opencv-python>=4.8.0
+
+# Face recognition — DeepFace + ArcFace (akurasi ~99.6%, tanpa kompilasi dlib)
+# Model ArcFace diunduh otomatis pada pertama kali dijalankan (~300MB)
+deepface>=0.0.93
+tf-keras>=2.14.0
+
+# Serial port untuk RFID reader (mode real)
+pyserial>=3.5
+
+# NumPy (dependensi deepface & opencv)
+numpy>=1.24.0
+
+# HTTP microservice untuk face verification via web (face_service.py)
+flask>=2.3.0

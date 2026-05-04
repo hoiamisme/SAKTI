@@ -1,0 +1,13 @@
+{
+  "include": ["sakti-python"],
+  "pythonVersion": "3.10",
+  "pythonPlatform": "Windows",
+  "typeCheckingMode": "basic",
+  "reportAttributeAccessIssue": "none",
+  "reportMissingModuleSource": "none",
+  "reportMissingImports": "none",
+  "reportGeneralTypeIssues": "none",
+  "reportBroadExceptionType": "none",
+  "reportUnknownMemberType": "none",
+  "reportUnknownVariableType": "none"
+}

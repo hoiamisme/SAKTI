@@ -1,0 +1,8 @@
+[MESSAGES CONTROL]
+# Suppress false-positive pylint warnings untuk SAKTI Python worker
+disable =
+    no-member,
+    broad-except,
+    broad-exception-caught,
+    import-outside-toplevel,
+    c-extension-no-member

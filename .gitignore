@@ -1,0 +1,39 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Laravel
+sakti-backend/vendor/
+sakti-backend/node_modules/
+sakti-backend/.env
+sakti-backend/storage/logs/*.log
+sakti-backend/storage/app/public/snapshots/
+sakti-backend/storage/framework/cache/
+sakti-backend/storage/framework/sessions/
+sakti-backend/storage/framework/views/
+sakti-backend/bootstrap/cache/*.php
+
+# Root vendor (jika ada)
+vendor/
+
+# IDE
+.vscode/
+*.suo
+*.user
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Composer local overrides
+composer.lock
